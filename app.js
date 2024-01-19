@@ -4,7 +4,6 @@ require("express-async-errors");
 const express = require("express");
 const app = express();
 
-
 const authRouter = require("./routes/auth")
 const jobsRouter = require("./routes/jobs")
 
@@ -37,3 +36,4 @@ const start = async () => {
 };
 
 start();
+
